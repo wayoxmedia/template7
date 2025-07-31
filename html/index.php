@@ -44,7 +44,7 @@
 
     <?php include 'featuresStart.php'; ?>
 
-    <?php include 'aboutStart.php'; ?>
+    <?php include 'about.php'; ?>
 
     <?php include 'factCouter.php'; ?>
 
