@@ -34,37 +34,37 @@
 
   <body>
 
-    <?php include 'spinnerStart.php'; ?>
+    <?php include 'spinner.php'; ?>
 
-    <?php include 'topbarStart.php'; ?>
+    <?php include 'topbar.php'; ?>
 
     <?php include 'navbar.php'; ?>
 
     <?php include 'carousel.php'; ?>
 
-    <?php include 'featuresStart.php'; ?>
+    <?php include 'features.php'; ?>
 
     <?php include 'about.php'; ?>
 
     <?php include 'factCouter.php'; ?>
 
-    <?php include 'servicesStart.php'; ?>
+    <?php include 'services.php'; ?>
 
-    <?php include 'carCategoriesStart.php'; ?>
+    <?php include 'carCategories.php'; ?>
 
-    <?php include 'carStepsStart.php'; ?>
+    <?php include 'carSteps.php'; ?>
     
-    <?php include 'blogStart.php'; ?>
+    <?php include 'blog.php'; ?>
 
-    <?php include 'bannerStart.php'; ?>
+    <?php include 'banner.php'; ?>
 
-    <?php include 'teamStart.php'; ?>
+    <?php include 'team.php'; ?>
 
-    <?php include 'testimonialStart.php'; ?>
+    <?php include 'testimonial.php'; ?>
 
-    <?php include 'footerStart.php'; ?>
+    <?php include 'footer.php'; ?>
 
-    <?php include 'copyrightStart.php'; ?>
+    <?php include 'copyright.php'; ?>
 
     <?php include 'backToTop.php'; ?>
 
