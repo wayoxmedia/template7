@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Cental - Car Rent Website Template</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -30,9 +30,9 @@
 
     <!-- Template Stylesheet -->
     <link href="static/css/style.css" rel="stylesheet">
-  </head>
+</head>
 
-  <body>
+<body>
 
     <?php include 'spinner.php'; ?>
 
@@ -81,6 +81,6 @@
 
     <!-- Template Javascript -->
     <script src="static/js/main.js"></script>
-  </body>
+</body>
 
 </html>
