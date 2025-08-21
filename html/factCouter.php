@@ -33,7 +33,7 @@
           </div>
           <div class="counter-counting my-3">
           <span class="text-white fs-2 fw-bold" data-toggle="counter-up"><?= FACT_TEXTO4 ?></span>
-            <span class="h1 fw-bold text-white"><?= FACT_TEXTO5 ?></span>
+          <span class="h1 fw-bold text-white"><?= FACT_TEXTO5 ?></span>
           </div>
           <h4 class="text-white mb-0"><?= FACT_TITLE1 ?></h4>
         </div>

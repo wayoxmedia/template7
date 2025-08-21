@@ -46,10 +46,14 @@ const BANNER_BUTTON2 = '';
 const BLOG_TITLE = '';
 const BLOG_DESCRIPTION = '';
 const BLOG_IMAGE1 = '';
+const BLOG_DATE = '';
+const BLOG_TITLE1 = '';
+const BLOG_TITLE02 = '';
 const BLOG_TITLE2 = '';
 const BLOG_TITLE3 = '';
-const BLOG_LINK = '';
+const BLOG_LINKS = '';
 const BLOG_IMAGE2 = '';
+const BLOG_DATE1 = '';
 const BLOG_LINK1 = '';
 const BLOG_DESCRIPTION1 = '';
 const BLOG_LINK2 = '';
@@ -305,9 +309,8 @@ const TESTIMONIAL_TEXTO5 = '';
 
 // topbar.php
 const TOPBAR_LINK = '';
+const TOPBAR_LINKS = '';
 const TOPBAR_LINK1 = '';
+const TOPBAR_LINKS2 = '';
 const TOPBAR_LINK2 = '';
-const TOPBAR_LINK3 = '';
-const TOPBAR_LINK4 = '';
-const TOPBAR_LINK5 = '';
-const TOPBAR_LINK6 = '';
+

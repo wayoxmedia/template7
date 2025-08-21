@@ -28,7 +28,7 @@ $(document).ready(function() {
       isValid = false;
       arrErrors.push('El campo de dirección no puede estar vacío.');
     }
-      debugger;
+    
     // Buscamos que tipo de dirección se seleccionó.
     let selectedAddressTypeValue = $selAddressType.val();
     if (selectedAddressTypeValue === 'e') {

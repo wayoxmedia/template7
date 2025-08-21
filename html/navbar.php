@@ -11,21 +11,21 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav mx-auto py-0">
-          <a href="index.html" class="nav-item nav-link active"><?= NAVBAR_LINK ?></a>
-          <a href="del/about.html" class="nav-item nav-link"><?= NAVBAR_LINK2 ?></a>
-          <a href="del/service.html" class="nav-item nav-link"><?= NAVBAR_LINK3 ?></a>
-          <a href="del/blog.html" class="nav-item nav-link"><?= NAVBAR_LINK4 ?></a>
+          <a href="#" class="nav-item nav-link active"><?= NAVBAR_LINK ?></a>
+          <a href="#" class="nav-item nav-link"><?= NAVBAR_LINK2 ?></a>
+          <a href="#" class="nav-item nav-link"><?= NAVBAR_LINK3 ?></a>
+          <a href="#" class="nav-item nav-link"><?= NAVBAR_LINK4 ?></a>
           <div class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><?= NAVBAR_LINK5 ?></a>
             <div class="dropdown-menu m-0">
-              <a href="del/feature.html" class="dropdown-item"><?= NAVBAR_LINK6 ?></a>
-              <a href="del/cars.html" class="dropdown-item"><?= NAVBAR_LINK7 ?></a>
-              <a href="del/team.html" class="dropdown-item"><?= NAVBAR_LINK8 ?></a>
-              <a href="del/testimonial.html" class="dropdown-item"><?= NAVBAR_LINK9 ?></a>
-              <a href="del/404.html" class="dropdown-item"><?= NAVBAR_LINK10 ?></a>
+              <a href="#" class="dropdown-item"><?= NAVBAR_LINK6 ?></a>
+              <a href="#" class="dropdown-item"><?= NAVBAR_LINK7 ?></a>
+              <a href="#" class="dropdown-item"><?= NAVBAR_LINK8 ?></a>
+              <a href="#" class="dropdown-item"><?= NAVBAR_LINK9 ?></a>
+              <a href="#" class="dropdown-item"><?= NAVBAR_LINK10 ?></a>
             </div>
           </div>
-          <a href="del/contact.html" class="nav-item nav-link"><?= NAVBAR_LINK11 ?></a>
+          <a href="#" class="nav-item nav-link"><?= NAVBAR_LINK11 ?></a>
         </div>
         <a href="#" class="btn btn-primary rounded-pill py-2 px-4"><?= NAVBAR_LINK12 ?></a>
       </div>

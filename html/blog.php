@@ -12,15 +12,15 @@
             <img src="<?= BLOG_IMAGE1 ?>" class="img-fluid rounded-top w-100" alt="Image">
           </div>
           <div class="blog-content rounded-bottom p-4">
-            <div class="blog-date">30 Dec 2025</div>
+            <div class="blog-date"><?= BLOG_DATE ?></div>
             <div class="blog-comment my-3">
-              <div class="small"><span class="fa fa-user text-primary"></span><span class="ms-2">Martin.C</span></div>
+              <div class="small"><span class="fa fa-user text-primary"></span><span class="ms-2"><?= BLOG_TITLE1 ?></span></div>
               <div class="small"><span class="fa fa-comment-alt text-primary"></span><span
-                class="ms-2">6 Comments</span></div>
+                class="ms-2"><?= BLOG_TITLE02 ?></span></div>
             </div>
             <a href="#" class="h4 d-block mb-3"><?= BLOG_TITLE2 ?></a>
             <p class="mb-3"><?= BLOG_TITLE3 ?></p>
-            <a href="#" class="">Read More <i class="fa fa-arrow-right"></i></a>
+            <a href="#" class=""><?= BLOG_LINKS ?><i class="fa fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -30,15 +30,15 @@
             <img src="<?= BLOG_IMAGE2 ?>" class="img-fluid rounded-top w-100" alt="Image">
           </div>
           <div class="blog-content rounded-bottom p-4">
-            <div class="blog-date">25 Dec 2025</div>
+            <div class="blog-date"><?= BLOG_DATE1 ?></div>
             <div class="blog-comment my-3">
               <div class="small">
                 <span class="fa fa-user text-primary"></span>
-                <span class="ms-2">Martin.C</span>
+                <span class="ms-2"><?= BLOG_TITLE1 ?></span>
               </div>
               <div class="small">
                 <span class="fa fa-comment-alt text-primary"></span>
-                <span class="ms-2">6 Comments</span>
+                <span class="ms-2"><?= BLOG_TITLE02 ?></span>
               </div>
             </div>
             <a href="#" class="h4 d-block mb-3"><?= BLOG_LINK1 ?></a>
@@ -53,11 +53,11 @@
             <img src="<?= BLOG_IMAGE3 ?>" class="img-fluid rounded-top w-100" alt="Image">
           </div>
           <div class="blog-content rounded-bottom p-4">
-            <div class="blog-date">27 Dec 2025</div>
+            <div class="blog-date"><?= BLOG_DATE1 ?></div>
             <div class="blog-comment my-3">
-              <div class="small"><span class="fa fa-user text-primary"></span><span class="ms-2">Martin.C</span></div>
+              <div class="small"><span class="fa fa-user text-primary"></span><span class="ms-2"><?= BLOG_TITLE1 ?></span></div>
               <div class="small"><span class="fa fa-comment-alt text-primary"></span><span
-                class="ms-2">6 Comments</span></div>
+                class="ms-2"><?= BLOG_TITLE02 ?></span></div>
             </div>
             <a href="#" class="h4 d-block mb-3"><?= BLOG_LINK3 ?></a>
             <p class="mb-3"><?= BLOG_DESCRIPTION2 ?></p>

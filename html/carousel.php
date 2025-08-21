@@ -130,10 +130,10 @@
                         </div>
                       </div>
                       <div class="col-12">
-                        <a><?= CAROUSEL_LINK ?></a>
+                        <a href="#" class="text-start text-white d-block mb-2"><?= CAROUSEL_LINK ?></a>
                         <div class="input-group">
                           <div class="d-flex align-items-center bg-light text-body rounded-start p-2">
-                            <span class="fas fa-map-marker-alt"></span><span class="ms-1"><?= CAROUSEL_LINK ?></span>
+                            <span class="fas fa-map-marker-alt"></span><span class="ms-1"><?= CAROUSEL_FA_MAP_MARKER_DROP1 ?></span>
                           </div>
                           <input class="form-control" type="text" placeholder="Enter a City or Airport"
                                 aria-label="Enter a City or Airport">
