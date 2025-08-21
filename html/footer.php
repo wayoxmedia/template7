@@ -5,53 +5,63 @@
       <div class="col-md-6 col-lg-6 col-xl-3">
         <div class="footer-item d-flex flex-column">
           <div class="footer-item">
-            <h4 class="text-white mb-4">About Us</h4>
-            <p class="mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet,
-              consectetur adipiscing elit consectetur adipiscing elit.</p>
+            <h4 class="text-white mb-4"><?= FOOTER_TITLE ?></h4>
+            <p class="mb-3"><?= FOOTER_TEXT ?></p>
           </div>
-          <div class="position-relative">
-            <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
-            <button type="button" class="btn btn-secondary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">
-              Subscribe
-            </button>
+          <form id="subscribeForm" method="post">
+            <select class="form-select" id="selAddressType" name="selAddressType">
+              <option value="e">Email</option>
+              <option value="p">Phone</option>
+            </select>
+            <div class="position-relative">
+              <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" 
+                      type="text" id="iptAddress" name="iptAddress" placeholder="Enter your email">
+              <button type="submit" 
+                      class="btn btn-secondary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2" 
+                      id="btnSubmitSubscribe">
+                <?= FOOTER_BUTTON ?>
+              </button>
+            </div>
+          </form>
+            <p id="pMessage" class="mt-3 text-success text-center d-none"></p>
+            <ul id="ulErrors" class="mt-3 text-danger list-unstyled text-center d-none"></ul>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-6 col-xl-3">
+        <div class="footer-item d-flex flex-column">
+          <h4 class="text-white mb-4"><?= FOOTER_TITLE1 ?></h4>
+          <a href="#"><i class="fas fa-angle-right me-2"></i><?= FOOTER_LINK ?></a>
+          <a href="#"><i class="fas fa-angle-right me-2"></i><?= FOOTER_LINK2 ?></a>
+          <a href="#"><i class="fas fa-angle-right me-2"></i><?= FOOTER_LINK3 ?></a>
+          <a href="#"><i class="fas fa-angle-right me-2"></i><?= FOOTER_LINK4 ?></a>
+          <a href="#"><i class="fas fa-angle-right me-2"></i><?= FOOTER_LINK5 ?></a>
+          <a href="#"><i class="fas fa-angle-right me-2"></i><?= FOOTER_LINK6 ?></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-6 col-xl-3">
+        <div class="footer-item d-flex flex-column">
+          <h4 class="text-white mb-4"><?= FOOTER_TITLE2 ?></h4>
+          <div class="mb-3">
+            <h6 class="text-muted mb-0"><?= FOOTER_TITLE3 ?></h6>
+            <p class="text-white mb-0"><?= FOOTER_TEXTO1 ?></p>
+          </div>
+          <div class="mb-3">
+            <h6 class="text-muted mb-0"><?= FOOTER_TITLE4 ?></h6>
+            <p class="text-white mb-0"><?= FOOTER_TEXTO2 ?></p>
+          </div>
+          <div class="mb-3">
+            <h6 class="text-muted mb-0"><?= FOOTER_TITLE5 ?></h6>
+            <p class="text-white mb-0"><?= FOOTER_TEXTO3 ?></p>
           </div>
         </div>
       </div>
       <div class="col-md-6 col-lg-6 col-xl-3">
         <div class="footer-item d-flex flex-column">
-          <h4 class="text-white mb-4">Quick Links</h4>
-          <a href="#"><i class="fas fa-angle-right me-2"></i> About</a>
-          <a href="#"><i class="fas fa-angle-right me-2"></i> Cars</a>
-          <a href="#"><i class="fas fa-angle-right me-2"></i> Car Types</a>
-          <a href="#"><i class="fas fa-angle-right me-2"></i> Team</a>
-          <a href="#"><i class="fas fa-angle-right me-2"></i> Contact us</a>
-          <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-6 col-xl-3">
-        <div class="footer-item d-flex flex-column">
-          <h4 class="text-white mb-4">Business Hours</h4>
-          <div class="mb-3">
-            <h6 class="text-muted mb-0">Mon - Friday:</h6>
-            <p class="text-white mb-0">09.00 am to 07.00 pm</p>
-          </div>
-          <div class="mb-3">
-            <h6 class="text-muted mb-0">Saturday:</h6>
-            <p class="text-white mb-0">10.00 am to 05.00 pm</p>
-          </div>
-          <div class="mb-3">
-            <h6 class="text-muted mb-0">Vacation:</h6>
-            <p class="text-white mb-0">All Sunday is our vacation</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-lg-6 col-xl-3">
-        <div class="footer-item d-flex flex-column">
-          <h4 class="text-white mb-4">Contact Info</h4>
-          <a href="#"><i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA</a>
-          <a href="mailto:info@example.com"><i class="fas fa-envelope me-2"></i> info@example.com</a>
-          <a href="tel:+012 345 67890"><i class="fas fa-phone me-2"></i> +012 345 67890</a>
-          <a href="tel:+012 345 67890" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
+          <h4 class="text-white mb-4"><?= FOOTER_TITLE6 ?></h4>
+          <a href="#"><i class="fa fa-map-marker-alt me-2"></i><?= FOOTER_LINKS ?></a>
+          <a href="mailto:info@example.com"><i class="fas fa-envelope me-2"></i><?= FOOTER_LINKS1 ?></a>
+          <a href="tel:+012 345 67890"><i class="fas fa-phone me-2"></i><?= FOOTER_LINKS2 ?></a>
+          <a href="tel:+012 345 67890" class="mb-3"><i class="fas fa-print me-2"></i><?= FOOTER_LINKS3 ?></a>
           <div class="d-flex">
             <a class="btn btn-secondary btn-md-square rounded-circle me-3" href=""><i
               class="fab fa-facebook-f text-white"></i></a>
